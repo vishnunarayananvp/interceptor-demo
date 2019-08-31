@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+
+pre {
+  height: 160px;
+  width: 400px;
+  overflow: auto;
+  font-weight: 600;
+  background: lightgray;
+  margin-right: 50px;
+  overflow-x: hidden;
+}
+
+button {
+  border: none;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.button {
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 5px;
+}

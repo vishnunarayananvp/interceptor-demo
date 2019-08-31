@@ -1,0 +1,21 @@
+<h1 style="display: inline;">
+  Http interceptors
+</h1>
+<span>Open console</span>
+<div style="margin: 5px;">
+  <button routerLink="/customers">Customers</button>
+  <button routerLink="/orders">Orders</button>
+  <button routerLink="">Home</button>
+</div>
+
+<div class="row">
+  <div>
+    <h3>root component</h3>
+    <pre [innerHTML]="response | async"></pre>
+    <button class="button" (click)="request()">
+      Make request
+    </button>
+  </div>
+  <app-child></app-child>
+</div>
+<router-outlet></router-outlet>
